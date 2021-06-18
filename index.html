@@ -262,24 +262,6 @@
                 }
             }
         </script>
-
-        <script>
-            function details(e) {
-                let devicemenu = document.getElementsByClassName("buildoptions");
-                //console.log(devicemenu)
-                let menulinks = document.getElementsByClassName("buildsinfo");
-                let icon = document.getElementsByClassName("arrow");
-                for (i = 0; i <= menulinks.length; i++) {
-                    if (e == i) {
-                        menulinks[i].classList.toggle("hidden");
-                        //devicemenu[i].classList.toggle('bg-blue-500');
-                        //devicemenu[i].classList.remove('text-gray-700');
-                        //devicemenu[i].classList.toggle('text-white');
-                        icon[i].classList.toggle("-rotate-90");
-                    }
-                }
-            }
-        </script>
         
     </body>
 </html>
